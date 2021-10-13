@@ -1,3 +1,5 @@
+#requires AutoHotkey v2.0-a104
+
 safecall(function, args*) {
   if not function is Func
     throw valueError("Parameter #1 (function) must be of type Func.", -1)
